@@ -1,3 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+
+fun main() {
+    val archive : MutableMap<String, MutableMap<String,String>> = mutableMapOf()
+    val menu = Menu()
+    menu.menu(archive)
 }
